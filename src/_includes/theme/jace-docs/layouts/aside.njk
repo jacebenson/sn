@@ -1,8 +1,11 @@
 <aside>
     <nav>
     {% for tag in collections.tagsList %}
-
+    {% if page.url.split('/')[1] === tag %}
     <details open>
+    {% else %}
+    <details>
+    {% endif %}
     <summary>{{tag | capitalize}}</summary>
     <ul>
       {% for thing in collections[tag] %}

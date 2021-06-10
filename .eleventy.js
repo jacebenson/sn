@@ -27,7 +27,9 @@ module.exports = function (eleventyConfig) {
             .forEach((tag) => tagsSet.add(tag))
         })
         return [...tagsSet].sort((a, b) => b.localeCompare(a))
-      })
+    })
+    const pluginTOC = require('eleventy-plugin-nesting-toc');
+    eleventyConfig.addPlugin(pluginTOC);
     // add support for syntax highlighting
     eleventyConfig.addPlugin(syntaxHighlight);
     let markdownLibrary = markdownIt({

@@ -70,10 +70,12 @@
 
 <body> 
   {% include site.getFile("layouts/header.njk") ignore missing %}
-  <aside>
+  <aside class="aside-left">
   {% include site.getFile("layouts/aside.njk") ignore missing %}
   </aside>
-  
+  <aside class="aside-right">
+   {{ content | toc | safe }}
+  </aside>
   <main>
     <article>
     {% block content %}

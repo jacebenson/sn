@@ -76,9 +76,10 @@ body {
   color: var(--text-color);
   display: grid;
   grid-template-areas: 
-  "header header"
-  "aside  main"
-  "footer footer";
+  "header header header"
+  "aside main aside-right"
+  "footer footer footer";
+  grid-auto-columns: 30ch 1fr 30ch;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.1875rem;
   line-height: 1.7;
