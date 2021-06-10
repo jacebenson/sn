@@ -27,7 +27,7 @@ module.exports = {
     environment: process.env.ELEVENTY_ENV,
     menu: [
         {
-            link: "https://github.com/jacebenson/jace-ty/",
+            link: "https://github.com/jacebenson/sn/",
             text: "GitHub",
         },
         {
