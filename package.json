@@ -1,0 +1,33 @@
+{
+  "name": "jace-11ty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy",
+    "g": "npx ./generators/generic.js",
+    "generate": "npx ./generators/generic.js",
+    "buildImages": "npx ./generators/buildImages.js",
+    "downloadImage": "npx ./generators/downloadImage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.2.5",
+    "clean-css": "^4.2.3",
+    "dotenv": "^8.2.0",
+    "lighthouse-ci": "^1.11.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^0.3.0"
+  }
+}
