@@ -31,16 +31,20 @@ module.exports = {
             text: "GitHub",
         },
         {
-            link: "/script-includes/abstractajaxprocessor/",
+            link: "/script-includes/",
             text: "Script Includes",
         },
         {
-            link: "/properties/app.service.persist.list.state/",
+            link: "/properties/",
             text: "Properties",
         },
         {
-            link: "/classes/glideaggregate/",
+            link: "/classes/",
             text: "Classes",
+        },
+        {
+            link: "/other/",
+            text: "Other",
         },
     ],
     twitter: "jacebenson",

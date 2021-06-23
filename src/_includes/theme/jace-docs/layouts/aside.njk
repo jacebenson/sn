@@ -1,18 +1,20 @@
 <aside>
     <nav>
+    <ul>
     {% for tag in collections.tagsList %}
     {% if page.url.split('/')[1] === tag %}
-    <details open>
-    {% else %}
-    <details>
-    {% endif %}
+    <li><details open>
     <summary>{{tag | capitalize}}</summary>
     <ul>
       {% for thing in collections[tag] %}
       <li><a class="{% if page.url === thing.url %}active{% endif %}" href="{{ thing.url }}">{{ thing.data.title }}</a></li>
       {% endfor %}
     </ul>
-    </details>
+    </details></li>
+    {% else %}
+    <li><a href="/{{tag}}">{{tag | capitalize}}</a></li>
+    {% endif %}
     {% endfor %}
+    </ul>
     </nav>
 </aside>

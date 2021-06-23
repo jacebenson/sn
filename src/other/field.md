@@ -200,7 +200,8 @@ Value: true/false
 | any table derived from sys\_auto
 | If present or true, disables the usual Execute Now button. This is used by applications using schedules (such as Discovery) to substitute their own more appropriate action.
 |
-## edge_encryption_clear_text_allowed` | true/false
+## edge_encryption_clear_text_allowed` 
+| true/false
 | field
 | When set to true, allows server-side scripts to append non-encrypted data to an encrypted string within the field.
 |
