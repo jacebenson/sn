@@ -9,8 +9,7 @@ Request catalogs and their catalog items (forms) are used to describe, support, 
 
 ### Catalog Item Style Guide 
 
-* Use the standard style guide to design catalog items. 
-* The catalog request item style guide is maintained on the ServiceNow in knowledge article KB0000991. Printed copies are considered drafts. 
+* Use your company provided style guide to design catalog items.
 
 ### Request Catalog Style Guide
 
@@ -33,7 +32,7 @@ The Request Catalog is for service offerings. Services offerings may include bot
 #### Request Item Writing Tips
 
 * **Avoid capitalizing every word in a header, question or phrase**. The first letter of the first word of variables in a catalog item should be capitalized (i.e. Phone number). Capitalize professional titles, organizations, and other proper nouns, but in general, avoid the use of caps.
-* **Avoid the use of acronyms**. If an acronym is required, the full name should be written out the first time it is used with its corresponding acronym in parenthesis (i.e. Information and Educational Technology (IET)).
+* **Avoid the use of acronyms**. If an acronym is required, the full name should be written out the first time it is used with its corresponding acronym in parenthesis (i.e. Associated Press (AP)).
 * **Use clear and concise language**. For variable questions, typically verbs are not necessary. (i.e. “Requestor’s job title” rather than “Enter the requestor’s job title.”)
 
 #### General Formatting

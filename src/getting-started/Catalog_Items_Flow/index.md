@@ -15,7 +15,7 @@ Login to the instance
 03. Fill out these values:
 	01. Name: [your name]'s Test Catalog Item
 	02. Catalogs: IT Services Request Catalog
-	03. Category: Student Practice
+	03. Category: Student Practice (you might have to make this if someone hasn't already made it for you)
 	04. Short Description: A catalog item designed for practicing ServiceNow admin fundamental skills
 	05. Portal Settings, Request method: Submit
 04. Right click the header and select save
@@ -156,7 +156,7 @@ Note: Flows are powerful, and with great power comes great responsibility. It is
 14. In the flow field, add your flow and save/update your item
 
 Your catalog item now has this functionality:
-* Upon submission, the user is emailed letting them know that we received their request (this happens automatically without your configuration). (note that emails are disabled in sandbox so you won't actually see the email)
+* Upon submission, the user is emailed letting them know that we received their request (this happens automatically without your configuration).
 * If the user did not mark the checkbox question as true, then it will create a task for you to complete and the task will remain open until that task is completed before the flow continues.
 * If the user marked the checkbox question as true/checked, then it will send an approval request to you first, and upon approval the flow will continues
 * If the task is completed, then a "completed" email is sent to the user
@@ -164,7 +164,7 @@ Your catalog item now has this functionality:
 A lot more functionality just from a simple flow!
 
 Go and actually test these scenarios by submitting your form several times. You can see "approvals" and "tasks" show up on the request item record after you submit the form.
-* To approve or reject an approval you can either go here: `/sys_approval_list.do`
+* To approve or reject an approval you can either impersonate the approver and check the service portal, or type Approvals in the app nav.
 * To complete a Catalog Task, go to the newly created request item and scroll down to the "Catalog Tasks" related list
 
 Did everything happen that you expected? **If this is not working for you, double check your Catalog Item to see if your Process Engine > Flow has your Flow there.**
